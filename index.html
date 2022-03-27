@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HobbyART</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section class="container">
+        <div class="basket">
+            <div class="basket__address">
+                <h2>Способ получения</h2>
+                <form class="basket__address__form">
+                    <input type="text" placeholder="Город" class="basket__address__city">
+                    <select class="basket__address__post">
+                        <option>Курьерская доставка</option>
+                        <option selected>Почта России</option>
+                        <option>Boxberry</option>
+                    </select>
+                    <div class="basket__address__block">
+                        <input type="text" placeholder="Улица" class="basket__address__street">
+                        <input type="text" placeholder="Дом" class="basket__address__house">
+                        <input type="text" placeholder="Квартира" class="basket__address__house">
+                        <input type="text" placeholder="Индекс" class="basket__address__house">
+                    </div>
+                    <input type="text" placeholder="Добавить комментарий" class="basket__address__addcomm">
+                </form>
+            </div>
+
+            <div class="basket__name">
+                <h2>Данные получателя</h2>
+                <form class="basket__name__form">
+                    <div class="basket__name__block1">
+                        <input type="text" placeholder="Фамилия" class="basket__name__input">
+                        <input type="text" placeholder="Имя" class="basket__name__input">
+                        <input type="text" placeholder="Отчество" class="basket__name__input">
+                    </div>
+                    <div class="basket__name__block2">
+                        <input type="tel" placeholder="Номер телефона" class="basket__name__input">
+                        <p class="basket__name__comment">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</p>
+                    </div>
+                    <div class="basket__name__block3">
+                    <input type="email" placeholder="E-mail" class="basket__name__email">
+                    <p class="basket__name__comment">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</p>
+                    </div>
+                    <div class="basket__name__block4">
+
+                        <label for="subs" class="label-checkbox">
+                            <input type="checkbox" id="subs" checked>
+                            <span></span>
+                            Подписаться на рассылку новинок и акций
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="basket__pay">
+                <h2>Способ оплаты</h2>
+                <form class="basket__pay__form">
+                    <div>
+                        <label for="cash" class="label-radio">
+                            <input type="radio" id="cash" name="pay">
+                            <span></span>
+                            Оплата при получении наличными или картой
+                        </label>
+                    </div>
+                    <div>
+                        <label for="card" class="label-radio">
+                            <input type="radio" id="card" name="pay" checked>
+                            <span></span>
+                            Оплата банковской картой онлайн
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

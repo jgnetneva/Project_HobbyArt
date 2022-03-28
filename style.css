@@ -207,26 +207,3 @@ input::placeholder {
 .label-radio input:checked ~ span::after {
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
